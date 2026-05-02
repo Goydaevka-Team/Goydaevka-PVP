@@ -1,3 +1,5 @@
-# Игнорировать все папки
-*/
-# Но не игнорировать конкретные папки
+/mods
+/logs
+/resourcepacks/MCHR Resourcepack (Without Cross)
+/resourcepacks/MCHR Resourcepack
+resourcepacks/README-RESOURCEPACK.txt
