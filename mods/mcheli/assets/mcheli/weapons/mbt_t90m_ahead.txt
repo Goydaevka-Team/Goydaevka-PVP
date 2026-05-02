@@ -1,4 +1,4 @@
-DisplayName = \u041f\u0440\u0438\u0432\u0435\u0442
+DisplayName = 3BM60
 Type = MachineGun1
 Power = 550
 ModelBullet = tank_shell

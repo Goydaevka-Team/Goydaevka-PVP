@@ -1,7 +1,7 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.275
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:12
 guiScale:3
@@ -16,7 +16,7 @@ fancyGraphics:true
 ao:2
 clouds:true
 resourcePacks:["GoydaevkaRP"]
-lastServer:
+lastServer:127.0.0.1:25565
 lang:ru_RU
 chatVisibility:0
 chatColors:true
@@ -27,7 +27,7 @@ snooperEnabled:true
 fullscreen:false
 enableVsync:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
@@ -85,6 +85,12 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_ae2stuff.key.mode:0
+key_ae2wct.OpenTerminal:0
+key_ae2wct.OpenMagnetFilter:0
+key_ae2wct.SwitchMagnetMode:0
+key_key.toggle_focus.desc:0
+key_key.search_connected_inventories.desc:0
 key_?????????:203
 key_?????????:205
 key_?????????:200
@@ -136,9 +142,21 @@ key_hbm.key.ability:-99
 key_hbm.key.abilityAlt:56
 key_hbm.key.copyToolAlt:56
 key_hbm.key.copyToolCtrl:29
+key_openblocks.keybind.vario_switch:47
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
 key_smoothfont.key.guiOpen:199
-soundCategory_master:1.0
-soundCategory_music:1.0
+key_bbw.key.mode:0
+key_bbw.key.fluidmode:0
+key_Options Gui:23
+key_key.journeymap.map_toggle:36
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_preset:43
+key_key.journeymap.create_waypoint:48
+soundCategory_master:0.16225165
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

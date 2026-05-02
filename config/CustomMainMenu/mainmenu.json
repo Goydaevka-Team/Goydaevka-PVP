@@ -138,7 +138,7 @@
 		
         "background":
 		{
-			"image" : "modpack:textures/2345.jpg",
+			"image" : "modpack:textures/main_menu.jpg",
 			"mode" : "stretch"
 		}
 
