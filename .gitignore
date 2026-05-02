@@ -1,5 +1,26 @@
-/mods
 /logs
 /resourcepacks/MCHR Resourcepack (Without Cross)
 /resourcepacks/MCHR Resourcepack
 resourcepacks/README-RESOURCEPACK.txt
+/saves
+# 1. Игнорируем всё внутри /mods, кроме mcheli
+/mods/*
+!/mods/mcheli/
+
+# 2. Внутри mcheli игнорируем всё, кроме assets
+/mods/mcheli/*
+!/mods/mcheli/assets/
+
+# 3. Внутри assets игнорируем всё, кроме mcheli (да, ещё один mcheli)
+/mods/mcheli/assets/*
+!/mods/mcheli/assets/mcheli/
+
+# 4. Внутри assets/mcheli игнорируем всё, кроме textures
+/mods/mcheli/assets/mcheli/*
+!/mods/mcheli/assets/mcheli/textures/
+
+# 5. Внутри textures игнорируем всё, кроме gui
+/mods/mcheli/assets/mcheli/textures/*
+!/mods/mcheli/assets/mcheli/textures/gui/
+
+!/mods/mcheli/assets/mcheli/tanks

@@ -1,18 +1,36 @@
-Logging started at 2026-05-02T12:56:51.689Z
+Logging started at 2026-05-02T14:23:55.881Z
 [authlib-injector] [INFO] Version: 1.2.7
 [authlib-injector] [INFO] Authentication server: http://localhost:54309
 [authlib-injector] [WARNING] You are using HTTP protocol, which is INSECURE! Please switch to HTTPS if possible.
 [authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
 [authlib-injector] [INFO] Enable MC-52974 Workaround
 [authlib-injector] [INFO] Enable MC-52974 Workaround for 1.7.10
-[authlib-injector] [INFO] Httpd is running on port 54365
-[authlib-injector] [INFO] Transformed [blg] with [Constant URL Transformer]
-[authlib-injector] [INFO] Transformed [com.mojang.patchy.BlockedServers] with [Constant URL Transformer]
+[authlib-injector] [INFO] Httpd is running on port 53027
+[authlib-injector] [INFO] Transformed [net.minecraft.client.entity.AbstractClientPlayer] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.util.Session] with [1.7.10 MC-52974 Workaround (Session)]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
-[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
-[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [MC-52974 Workaround]
-[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication] with [Constant URL Transformer]
-[authlib-injector] [INFO] Transformed [bbs] with [1.7.10 MC-52974 Workaround (Session)]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [net.minecraft.network.play.server.S0CPacketSpawnPlayer] with [1.7.10 MC-52974 Workaround (S0CPacketSpawnPlayer)]
+[authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/b72de8c9866e31ad8420839fa72c6d6e]
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54309/sessionserver/session/minecraft/profile/b72de8c9866e31ad8420839fa72c6d6e?unsigned=false
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
+	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://localhost:54309/sessionserver/session/minecraft/profile/b72de8c9866e31ad8420839fa72c6d6e?unsigned=false
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:49)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:90)
+	... 5 more
+
