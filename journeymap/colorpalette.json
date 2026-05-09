@@ -1,7 +1,7 @@
 var colorpalette={
   "version": 3,
   "name": "Цветовая палитра JourneyMap",
-  "generated": "Generated using JourneyMap 5.2.10 Unlimited for 1.7.10 on Sat May 02 22:38:08 MSK 2026",
+  "generated": "Generated using JourneyMap 5.2.10 Unlimited for 1.7.10 on Sat May 09 16:02:16 MSK 2026",
   "description": [
     "Этот файл может быть использован для сохранения целостности цветовой гаммы карты при смене темы оформления Minecraft.",
     "Редактируйте файл на свой страх и риск. Вы можете просмотреть этот файл: \u0027colorpalette.html\u0027",
@@ -10,8 +10,8 @@ var colorpalette={
     "Для дополнительной информации откройте страницу http://journeymap.info/help/wiki/Color_Palette"
   ],
   "permanent": false,
-  "resourcePacks": "GoydaevkaRP:folder:1777731095207",
-  "modNames": "AE2 Stuff:0.10.2-GTNH, AE2 Wireless Crafting Terminal:1.12.7, Applied Energistics 2 Core:rv3-beta-748-GTNH, Applied Energistics 2:rv3-beta-748-GTNH, BD lib:1.11.0-GTNH, Better Loading Screen GTNH:1.7.8-GTNH, BetterBuildersWands:0.13.4-GTNH-pre, Carpenter\u0027s Blocks:3.7.2-GTNH, ChickenChunks:1.3.4.19, Chisel:2.9.5.11, Chunk Pregenerator:2.1, CodeChicken Core:1.4.12, Custom Main Menu:1.14.1, Flan\u0027s Mod Ultimate (Stability Edition):1.58-Reforged, Forge Mod Loader:7.10.99.99, GTNH Lib:0.9.56, GTNHLib Core:0.9.56, Goydaevka NTM Integration:0.0.1, Goydaevka Server Tools:c14dc8b, Hbm\u0027s Nuclear Tech:1.0.27 BETA (5671), JourneyMap:5.2.10, MCH-Reforged:1.0, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, ModernMarkings:0.3.12-1.7.10, Mouse Tweaks:2.4.4, NotEnoughItems:2.8.93-GTNH, OpenBlocks:1.6, OpenMods:0.10.1, OpenModsCore:0.10.1, Resource Loader:1.3, Smooth Font Core:1.7.10-1.15.1, Smooth Font:1.7.10-1.15.3, UniMixins: Compatibility:0.1.23, UniMixins: GTNHMixins:2.2.0, UniMixins: GasStation:0.5.1, UniMixins: Mixin (UniMix):0.1.23, UniMixins: MixinBooterLegacy:1.2.1, UniMixins: MixinExtras:0.1.23, UniMixins: Mixingasm:0.3, UniMixins: SpongeMixins:2.0.1, UniMixins:0.1.23, mchrmixin:1.0",
+  "resourcePacks": "GoydaevkaRP:folder:1777731095207, MCHR Resourcepack:folder:1777729103925",
+  "modNames": "AE2 Stuff:0.10.2-GTNH, AE2 Wireless Crafting Terminal:1.12.7, Applied Energistics 2 Core:rv3-beta-748-GTNH, Applied Energistics 2:rv3-beta-748-GTNH, BD lib:1.11.0-GTNH, Better Loading Screen GTNH:1.7.8-GTNH, BetterBuildersWands:0.13.4-GTNH-pre, Carpenter\u0027s Blocks:3.7.2-GTNH, ChickenChunks:1.3.4.19, Chisel:2.9.5.11, CodeChicken Core:1.4.12, Custom Main Menu:1.14.1, Forge Mod Loader:7.10.99.99, GTNH Lib:0.9.56, GTNHLib Core:0.9.56, Goydaevka NTM Integration:0.0.1, Goydaevka Server Tools:c14dc8b, Hbm\u0027s Nuclear Tech:1.0.27 BETA (5671), Immersive Railroading:1.10.0, JourneyMap:5.2.10, Mcheli-R Wargames Edition:1.0, MineTweaker 3:3.0.13, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, Mod Tweaker 2:0.9.6, ModernMarkings:0.3.12-1.7.10, Mouse Tweaks:2.4.4, NotEnoughItems:2.8.93-GTNH, OpenBlocks:1.6, OpenMods:0.10.1, OpenModsCore:0.10.1, Resource Loader:1.3, Smooth Font Core:1.7.10-1.15.1, Smooth Font:1.7.10-1.15.3, Track API:1.2, UniMixins: Compatibility:0.1.23, UniMixins: GTNHMixins:2.2.0, UniMixins: GasStation:0.5.1, UniMixins: Mixin (UniMix):0.1.23, UniMixins: MixinBooterLegacy:1.2.1, UniMixins: MixinExtras:0.1.23, UniMixins: Mixingasm:0.3, UniMixins: SpongeMixins:2.0.1, UniMixins:0.1.23, UniversalModCore:1.2.2, WGCore:1.0.0_X172-dev, mchrmixin:1.0",
   "basicColors": [
     {
       "name": "0 Wall Marking",
@@ -188,6 +188,12 @@ var colorpalette={
       "color": "#393939"
     },
     {
+      "name": "Capture Flag",
+      "uid": "wgcore:capture_flag",
+      "meta": 0,
+      "color": "#d98731"
+    },
+    {
       "name": "Chemical Wall Marking",
       "uid": "modernmarkings:tile.wall_marking_symbol_chemical",
       "meta": 0,
@@ -198,6 +204,18 @@ var colorpalette={
       "uid": "modernmarkings:tile.wall_marking_number_comma",
       "meta": 0,
       "color": "#ffffff"
+    },
+    {
+      "name": "Core Flag",
+      "uid": "wgcore:core_flag",
+      "meta": 0,
+      "color": "#d7921d"
+    },
+    {
+      "name": "Core Relocation Flag",
+      "uid": "wgcore:core_relocation_flag",
+      "meta": 0,
+      "color": "#d7921d"
     },
     {
       "name": "Cтупени из замшелых бетонных кирпичей",
@@ -332,6 +350,12 @@ var colorpalette={
       "color": "#ffffff"
     },
     {
+      "name": "Expansion Flag",
+      "uid": "wgcore:expansion_flag",
+      "meta": 0,
+      "color": "#b98731"
+    },
+    {
       "name": "Extreme Voltage Wall Marking",
       "uid": "modernmarkings:tile.wall_marking_voltage_ev",
       "meta": 0,
@@ -348,6 +372,12 @@ var colorpalette={
       "uid": "hbm:tile.radiorec",
       "meta": 0,
       "color": "#475137"
+    },
+    {
+      "name": "FOB Flag",
+      "uid": "wgcore:fob_flag",
+      "meta": 0,
+      "color": "#d7921d"
     },
     {
       "name": "Fire Extinguisher Wall Marking",
@@ -533,37 +563,43 @@ var colorpalette={
       "name": "Letter D Floor Marking",
       "uid": "modernmarkings:tile.floor_marking_letter_d",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter D Wall Marking",
       "uid": "modernmarkings:tile.wall_marking_letter_d",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter E Floor Marking",
       "uid": "modernmarkings:tile.floor_marking_letter_e",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter E Wall Marking",
       "uid": "modernmarkings:tile.wall_marking_letter_e",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter F Floor Marking",
       "uid": "modernmarkings:tile.floor_marking_letter_f",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter F Wall Marking",
       "uid": "modernmarkings:tile.wall_marking_letter_f",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter G Floor Marking",
@@ -677,13 +713,15 @@ var colorpalette={
       "name": "Letter P Floor Marking",
       "uid": "modernmarkings:tile.floor_marking_letter_p",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter P Wall Marking",
       "uid": "modernmarkings:tile.wall_marking_letter_p",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter Q Floor Marking",
@@ -701,13 +739,15 @@ var colorpalette={
       "name": "Letter R Floor Marking",
       "uid": "modernmarkings:tile.floor_marking_letter_r",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter R Wall Marking",
       "uid": "modernmarkings:tile.wall_marking_letter_r",
       "meta": 0,
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "alpha": 0.99607843
     },
     {
       "name": "Letter S Floor Marking",
@@ -932,12 +972,6 @@ var colorpalette={
       "color": "#ff5f00"
     },
     {
-      "name": "Paintjob Table",
-      "uid": "flansmod:paintjobTable",
-      "meta": 0,
-      "color": "#6f6261"
-    },
-    {
       "name": "Per Tick Wall Marking",
       "uid": "modernmarkings:tile.wall_marking_voltage_pert",
       "meta": 0,
@@ -1152,6 +1186,24 @@ var colorpalette={
       "uid": "hbm:tile.rbmk_lever",
       "meta": 0,
       "color": "#66645c"
+    },
+    {
+      "name": "Resource Flag Tier I",
+      "uid": "wgcore:resource_flag_tier_i",
+      "meta": 0,
+      "color": "#d98731"
+    },
+    {
+      "name": "Resource Flag Tier II",
+      "uid": "wgcore:resource_flag_tier_ii",
+      "meta": 0,
+      "color": "#d98731"
+    },
+    {
+      "name": "Resource Flag Tier III",
+      "uid": "wgcore:resource_flag_tier_iii",
+      "meta": 0,
+      "color": "#d98731"
     },
     {
       "name": "Schrabidate Capacitor (LEGACY)",
@@ -1905,7 +1957,7 @@ var colorpalette={
       "name": "§61К§r хранилище создания",
       "uid": "appliedenergistics2:tile.BlockCraftingStorage",
       "meta": 0,
-      "color": "#b9b6a9"
+      "color": "#b8b4a7"
     },
     {
       "name": "§9256К§r хранилище создания",
@@ -1971,7 +2023,8 @@ var colorpalette={
       "name": "Автоматическая наковальня",
       "uid": "OpenBlocks:autoanvil",
       "meta": 0,
-      "color": "#404040"
+      "color": "#404040",
+      "alpha": 0.99607843
     },
     {
       "name": "Автоматическая пила",
@@ -3375,13 +3428,13 @@ var colorpalette={
       "name": "Блок изменчивых кристаллов",
       "uid": "appliedenergistics2:tile.BlockFluix",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b6b3a6"
     },
     {
       "name": "Блок истинного кварца",
       "uid": "appliedenergistics2:tile.BlockQuartz",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Блок кадмиевой стали",
@@ -3669,7 +3722,7 @@ var colorpalette={
       "name": "Блок создания",
       "uid": "appliedenergistics2:tile.BlockCraftingUnit",
       "meta": 0,
-      "color": "#b6b3a7"
+      "color": "#b8b4a8"
     },
     {
       "name": "Блок стали альянса",
@@ -4193,19 +4246,22 @@ var colorpalette={
       "name": "Бочка с жидким кислородом",
       "uid": "hbm:tile.lox_barrel",
       "meta": 0,
-      "color": "#35e0e0"
+      "color": "#35e0e0",
+      "alpha": 0.99215686
     },
     {
       "name": "Бочка с осадком IMP",
       "uid": "hbm:tile.taint_barrel",
       "meta": 0,
-      "color": "#4f2b58"
+      "color": "#4f2b58",
+      "alpha": 0.99215686
     },
     {
       "name": "Бочка с остеклованными ядерными отходами",
       "uid": "hbm:tile.vitrified_barrel",
       "meta": 0,
-      "color": "#9e9e83"
+      "color": "#9e9e83",
+      "alpha": 0.99215686
     },
     {
       "name": "Бочка с отработанным топливом",
@@ -4469,7 +4525,7 @@ var colorpalette={
       "name": "Верстак для ячеек",
       "uid": "appliedenergistics2:tile.BlockCellWorkbench",
       "meta": 0,
-      "color": "#b5b2a7"
+      "color": "#b7b4a8"
     },
     {
       "name": "Верёвочная лестница",
@@ -4493,7 +4549,7 @@ var colorpalette={
       "name": "Вибрационная камера",
       "uid": "appliedenergistics2:tile.BlockVibrationChamber",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b7b4a7"
     },
     {
       "name": "Внешний нагреватель пресса",
@@ -4525,43 +4581,50 @@ var colorpalette={
       "name": "Водный камень",
       "uid": "chisel:waterstone",
       "meta": 0,
-      "color": "#7e7e7e"
+      "color": "#7e7e7e",
+      "alpha": 0.7764706
     },
     {
       "name": "Водный камень",
       "uid": "chisel:waterstone",
       "meta": 1,
-      "color": "#212121"
+      "color": "#212121",
+      "alpha": 0.76862746
     },
     {
       "name": "Водный камень",
       "uid": "chisel:waterstone",
       "meta": 2,
-      "color": "#7f7f7f"
+      "color": "#7f7f7f",
+      "alpha": 0.76862746
     },
     {
       "name": "Водный камень",
       "uid": "chisel:waterstone",
       "meta": 3,
-      "color": "#6a6a6a"
+      "color": "#6a6a6a",
+      "alpha": 0.69411767
     },
     {
       "name": "Водный камень",
       "uid": "chisel:waterstone",
       "meta": 4,
-      "color": "#818181"
+      "color": "#818181",
+      "alpha": 0.9254902
     },
     {
       "name": "Водный камень",
       "uid": "chisel:waterstone",
       "meta": 5,
-      "color": "#737373"
+      "color": "#737373",
+      "alpha": 0.8666667
     },
     {
       "name": "Водный камень",
       "uid": "chisel:waterstone",
       "meta": 6,
-      "color": "#858585"
+      "color": "#858585",
+      "alpha": 0.93333334
     },
     {
       "name": "Водо-водяной энергетический реактор (ВВЭР)",
@@ -4736,7 +4799,7 @@ var colorpalette={
       "name": "Высекатель",
       "uid": "appliedenergistics2:tile.BlockInscriber",
       "meta": 0,
-      "color": "#b8b5a9"
+      "color": "#b8b4a7"
     },
     {
       "name": "Высеченные метеоритные кирпичи",
@@ -5278,7 +5341,7 @@ var colorpalette={
       "name": "Деревянная рукоятка",
       "uid": "appliedenergistics2:tile.BlockCrank",
       "meta": 0,
-      "color": "#b5b2a7"
+      "color": "#b7b4a8"
     },
     {
       "name": "Деревянное перекрытие",
@@ -5452,7 +5515,8 @@ var colorpalette={
       "name": "Дорожные линии",
       "uid": "chisel:road_line",
       "meta": 1,
-      "color": "#ac9843"
+      "color": "#ac9843",
+      "alpha": 0.972549
     },
     {
       "name": "Дорожные линии",
@@ -6572,19 +6636,20 @@ var colorpalette={
       "name": "Зарядник",
       "uid": "appliedenergistics2:tile.BlockCharger",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Заряженная руда истинного кварца",
       "uid": "appliedenergistics2:tile.OreQuartzCharged",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b6b3a6"
     },
     {
       "name": "Заряженный пустотный камень",
       "uid": "chisel:voidstone2",
       "meta": 0,
-      "color": "#442251"
+      "color": "#442251",
+      "alpha": 0.84313726
     },
     {
       "name": "Заряженный пустотный камень",
@@ -7312,19 +7377,19 @@ var colorpalette={
       "name": "Изменчивые ступеньки",
       "uid": "appliedenergistics2:tile.FluixStairBlock",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b6b3a6"
     },
     {
       "name": "Изменьчивая плита",
       "uid": "appliedenergistics2:tile.FluixSlabBlock",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b6b3a6"
     },
     {
       "name": "Изменьчивая плита",
       "uid": "appliedenergistics2:tile.FluixSlabBlock.double",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b6b3a6"
     },
     {
       "name": "Изумрудная руда",
@@ -7853,7 +7918,7 @@ var colorpalette={
       "name": "Кварцевое стекло",
       "uid": "appliedenergistics2:tile.BlockQuartzGlass",
       "meta": 0,
-      "color": "#b5b2a6",
+      "color": "#b6b3a7",
       "alpha": 0.4
     },
     {
@@ -7879,7 +7944,7 @@ var colorpalette={
       "name": "Кварцевый дробитель",
       "uid": "appliedenergistics2:tile.BlockGrinder",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b7b3a6"
     },
     {
       "name": "Кварцевый песок",
@@ -7891,7 +7956,8 @@ var colorpalette={
       "name": "Керосиновая бочка",
       "uid": "hbm:tile.pink_barrel",
       "meta": 0,
-      "color": "#b43065"
+      "color": "#b43065",
+      "alpha": 0.99215686
     },
     {
       "name": "Киноварная руда",
@@ -8330,7 +8396,7 @@ var colorpalette={
       "name": "Колонна истинного кварца",
       "uid": "appliedenergistics2:tile.BlockQuartzPillar",
       "meta": 0,
-      "color": "#b6b2a5"
+      "color": "#b5b2a6"
     },
     {
       "name": "Колонна облучения РБМК",
@@ -8498,7 +8564,7 @@ var colorpalette={
       "name": "Конденсатор материи",
       "uid": "appliedenergistics2:tile.BlockCondenser",
       "meta": 0,
-      "color": "#b5b2a5"
+      "color": "#b5b2a7"
     },
     {
       "name": "Конденсатор пара",
@@ -9060,43 +9126,50 @@ var colorpalette={
       "name": "Лавовый камень",
       "uid": "chisel:lavastone",
       "meta": 0,
-      "color": "#8f776c"
+      "color": "#8f776c",
+      "alpha": 0.85882354
     },
     {
       "name": "Лавовый камень",
       "uid": "chisel:lavastone",
       "meta": 1,
-      "color": "#41271b"
+      "color": "#41271b",
+      "alpha": 0.85882354
     },
     {
       "name": "Лавовый камень",
       "uid": "chisel:lavastone",
       "meta": 2,
-      "color": "#8d7a72"
+      "color": "#8d7a72",
+      "alpha": 0.79607844
     },
     {
       "name": "Лавовый камень",
       "uid": "chisel:lavastone",
       "meta": 3,
-      "color": "#76665f"
+      "color": "#76665f",
+      "alpha": 0.7372549
     },
     {
       "name": "Лавовый камень",
       "uid": "chisel:lavastone",
       "meta": 4,
-      "color": "#867f7d"
+      "color": "#867f7d",
+      "alpha": 0.93333334
     },
     {
       "name": "Лавовый камень",
       "uid": "chisel:lavastone",
       "meta": 5,
-      "color": "#757575"
+      "color": "#757575",
+      "alpha": 0.85882354
     },
     {
       "name": "Лавовый камень",
       "uid": "chisel:lavastone",
       "meta": 6,
-      "color": "#858585"
+      "color": "#858585",
+      "alpha": 0.93333334
     },
     {
       "name": "Лавовый камень",
@@ -9792,61 +9865,61 @@ var colorpalette={
       "name": "МЭ беспроводная точка доступа",
       "uid": "appliedenergistics2:tile.BlockWireless",
       "meta": 0,
-      "color": "#b9b6a9"
+      "color": "#b7b4a7"
     },
     {
       "name": "МЭ интерфейс",
       "uid": "appliedenergistics2:tile.BlockInterface",
       "meta": 0,
-      "color": "#b8b5a9"
+      "color": "#b8b4a7"
     },
     {
       "name": "МЭ камера квантовой связи",
       "uid": "appliedenergistics2:tile.BlockQuantumLinkChamber",
       "meta": 0,
-      "color": "#b5b2a7"
+      "color": "#b7b4a8"
     },
     {
       "name": "МЭ квантовое кольцо",
       "uid": "appliedenergistics2:tile.BlockQuantumRing",
       "meta": 0,
-      "color": "#b5b2a7"
+      "color": "#b6b3a7"
     },
     {
       "name": "МЭ контроллер",
       "uid": "appliedenergistics2:tile.BlockController",
       "meta": 0,
-      "color": "#b5b2a5"
+      "color": "#b5b2a7"
     },
     {
       "name": "МЭ контроллер с автономным питанием",
       "uid": "appliedenergistics2:tile.BlockCreativeEnergyController",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "МЭ накопитель",
       "uid": "appliedenergistics2:tile.BlockDrive",
       "meta": 0,
-      "color": "#b6b2a5"
+      "color": "#b5b2a6"
     },
     {
       "name": "МЭ порт ввода\\вывода",
       "uid": "appliedenergistics2:tile.BlockIOPort",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b7b4a7"
     },
     {
       "name": "МЭ сундук",
       "uid": "appliedenergistics2:tile.BlockChest",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "МЭ терминал безопасности",
       "uid": "appliedenergistics2:tile.BlockSecurity",
       "meta": 0,
-      "color": "#b6b3a6"
+      "color": "#b5b2a6"
     },
     {
       "name": "Магические энаргитовые кирпичи",
@@ -9858,7 +9931,8 @@ var colorpalette={
       "name": "Магический карандаш",
       "uid": "OpenBlocks:imaginary",
       "meta": 0,
-      "color": "#000000"
+      "color": "#000000",
+      "alpha": 0.12156863
     },
     {
       "name": "Магматические энаргитовые кирпичи",
@@ -9930,7 +10004,7 @@ var colorpalette={
       "name": "Матрица оптимизации шаблонов",
       "uid": "appliedenergistics2:tile.BlockPatternOptimizationMatrix",
       "meta": 0,
-      "color": "#b6b3a7"
+      "color": "#b7b4a8"
     },
     {
       "name": "Машина непрерывного литья заготовок",
@@ -10271,13 +10345,13 @@ var colorpalette={
       "name": "Молекулярный сборщик",
       "uid": "appliedenergistics2:tile.BlockMolecularAssembler",
       "meta": 0,
-      "color": "#b6b3a7"
+      "color": "#b8b5a9"
     },
     {
       "name": "Монитор создания",
       "uid": "appliedenergistics2:tile.BlockCraftingMonitor",
       "meta": 0,
-      "color": "#b6b3a7"
+      "color": "#b8b4a8"
     },
     {
       "name": "Морковь",
@@ -11069,7 +11143,7 @@ var colorpalette={
       "name": "Небесный камень",
       "uid": "appliedenergistics2:tile.BlockSkyStone",
       "meta": 0,
-      "color": "#b6b3a6"
+      "color": "#b5b2a5"
     },
     {
       "name": "Нейтронный отражатель ВВЭР",
@@ -11082,6 +11156,12 @@ var colorpalette={
       "uid": "hbm:tile.lightstone",
       "meta": 0,
       "color": "#919495"
+    },
+    {
+      "name": "Непостроенный железнодорожный путь",
+      "uid": "universalmodcore:immersiverailroading:block_rail_preview",
+      "meta": 0,
+      "color": "#7c007c"
     },
     {
       "name": "Нептуниевый блок",
@@ -11141,7 +11221,8 @@ var colorpalette={
       "name": "Нить",
       "uid": "minecraft:tripwire",
       "meta": 0,
-      "color": "#818181"
+      "color": "#818181",
+      "alpha": 0.41960785
     },
     {
       "name": "Нотный блок",
@@ -13109,7 +13190,8 @@ var colorpalette={
       "name": "Пион",
       "uid": "minecraft:double_plant",
       "meta": 5,
-      "color": "#85868e"
+      "color": "#85868e",
+      "alpha": 0.9882353
     },
     {
       "name": "Пиролизная печь",
@@ -13223,13 +13305,13 @@ var colorpalette={
       "name": "Плита из истинного кварца",
       "uid": "appliedenergistics2:tile.QuartzSlabBlock",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Плита из истинного кварца",
       "uid": "appliedenergistics2:tile.QuartzSlabBlock.double",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Плита из каменных кирпичей",
@@ -13253,13 +13335,13 @@ var colorpalette={
       "name": "Плита из колонны истинного кварца",
       "uid": "appliedenergistics2:tile.QuartzPillarSlabBlock",
       "meta": 0,
-      "color": "#b6b2a5"
+      "color": "#b5b2a6"
     },
     {
       "name": "Плита из колонны истинного кварца",
       "uid": "appliedenergistics2:tile.QuartzPillarSlabBlock.double",
       "meta": 0,
-      "color": "#b6b2a5"
+      "color": "#b5b2a6"
     },
     {
       "name": "Плита из композитной сетки",
@@ -13385,13 +13467,13 @@ var colorpalette={
       "name": "Плита из небесного камня",
       "uid": "appliedenergistics2:tile.SkyStoneSlabBlock",
       "meta": 0,
-      "color": "#b6b3a6"
+      "color": "#b5b2a5"
     },
     {
       "name": "Плита из небесного камня",
       "uid": "appliedenergistics2:tile.SkyStoneSlabBlock.double",
       "meta": 0,
-      "color": "#b6b3a6"
+      "color": "#b5b2a5"
     },
     {
       "name": "Плита из обсидиановых кирпичей",
@@ -13415,13 +13497,13 @@ var colorpalette={
       "name": "Плита из резного истинного кварца",
       "uid": "appliedenergistics2:tile.ChiseledQuartzSlabBlock",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Плита из резного истинного кварца",
       "uid": "appliedenergistics2:tile.ChiseledQuartzSlabBlock.double",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Плита из розового дерева",
@@ -14039,13 +14121,15 @@ var colorpalette={
       "name": "Предупреждающая табличка",
       "uid": "chisel:warningSign",
       "meta": 0,
-      "color": "#c7c405"
+      "color": "#c7c405",
+      "alpha": 0.9882353
     },
     {
       "name": "Предупреждающая табличка",
       "uid": "chisel:warningSign",
       "meta": 1,
-      "color": "#197a0d"
+      "color": "#197a0d",
+      "alpha": 0.9764706
     },
     {
       "name": "Предупреждающая табличка",
@@ -14081,7 +14165,8 @@ var colorpalette={
       "name": "Предупреждающая табличка",
       "uid": "chisel:warningSign",
       "meta": 7,
-      "color": "#bc931c"
+      "color": "#bc931c",
+      "alpha": 0.9882353
     },
     {
       "name": "Предупреждающая табличка",
@@ -14105,13 +14190,15 @@ var colorpalette={
       "name": "Предупреждающая табличка",
       "uid": "chisel:warningSign",
       "meta": 11,
-      "color": "#9b9b9b"
+      "color": "#9b9b9b",
+      "alpha": 0.9411765
     },
     {
       "name": "Предупреждающая табличка",
       "uid": "chisel:warningSign",
       "meta": 12,
-      "color": "#b5b5b5"
+      "color": "#b5b5b5",
+      "alpha": 0.9254902
     },
     {
       "name": "Предупреждающая табличка",
@@ -14153,7 +14240,7 @@ var colorpalette={
       "name": "Приёмщик энергии",
       "uid": "appliedenergistics2:tile.BlockEnergyAcceptor",
       "meta": 0,
-      "color": "#b6b3a6"
+      "color": "#b5b2a5"
     },
     {
       "name": "Провод из красной меди",
@@ -14350,13 +14437,13 @@ var colorpalette={
       "name": "Пространственный пилон",
       "uid": "appliedenergistics2:tile.BlockSpatialPylon",
       "meta": 0,
-      "color": "#b7b4a7"
+      "color": "#b6b2a5"
     },
     {
       "name": "Пространственный порт ввода\\вывода",
       "uid": "appliedenergistics2:tile.BlockSpatialIOPort",
       "meta": 0,
-      "color": "#b7b3a6"
+      "color": "#b6b2a5"
     },
     {
       "name": "Противопехотная мина",
@@ -14893,7 +14980,7 @@ var colorpalette={
       "name": "Резной блок истинного кварца",
       "uid": "appliedenergistics2:tile.BlockQuartzChiseled",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Резной кварцевый блок",
@@ -15081,7 +15168,7 @@ var colorpalette={
       "name": "Руда истинного кварца",
       "uid": "appliedenergistics2:tile.OreQuartz",
       "meta": 0,
-      "color": "#b8b4a7"
+      "color": "#b6b3a6"
     },
     {
       "name": "Рудный окислитель",
@@ -15093,7 +15180,8 @@ var colorpalette={
       "name": "Руководитель по строительству",
       "uid": "OpenBlocks:guide",
       "meta": 0,
-      "color": "#cccccc"
+      "color": "#cccccc",
+      "alpha": 0.58431375
     },
     {
       "name": "Рулон изолятора",
@@ -15405,13 +15493,13 @@ var colorpalette={
       "name": "Светильник из заряженного кварца",
       "uid": "appliedenergistics2:tile.BlockQuartzTorch",
       "meta": 0,
-      "color": "#b6b2a5"
+      "color": "#b5b2a6"
     },
     {
       "name": "Светильник обнаружения света",
       "uid": "appliedenergistics2:tile.BlockLightDetector",
       "meta": 0,
-      "color": "#b8b4a8"
+      "color": "#b8b4a7"
     },
     {
       "name": "Светло-серая обожжённая глина",
@@ -16798,7 +16886,7 @@ var colorpalette={
       "name": "Ступеньки из истинного кварца",
       "uid": "appliedenergistics2:tile.QuartzStairBlock",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Ступеньки из каменного кирпича",
@@ -16816,7 +16904,7 @@ var colorpalette={
       "name": "Ступеньки из колонны истинного кварца",
       "uid": "appliedenergistics2:tile.QuartzPillarStairBlock",
       "meta": 0,
-      "color": "#b6b2a5"
+      "color": "#b5b2a6"
     },
     {
       "name": "Ступеньки из композитной сетки",
@@ -16840,7 +16928,7 @@ var colorpalette={
       "name": "Ступеньки из небесного камня",
       "uid": "appliedenergistics2:tile.SkyStoneStairBlock",
       "meta": 0,
-      "color": "#b6b3a6"
+      "color": "#b5b2a5"
     },
     {
       "name": "Ступеньки из обсидиановых кирпичей",
@@ -16976,7 +17064,7 @@ var colorpalette={
       "name": "Ступеньки из резного истинного кварца",
       "uid": "appliedenergistics2:tile.ChiseledQuartzStairBlock",
       "meta": 0,
-      "color": "#b5b2a6"
+      "color": "#b6b3a7"
     },
     {
       "name": "Ступеньки из розового дерева",
@@ -17054,7 +17142,7 @@ var colorpalette={
       "name": "Сундук из небесного камня",
       "uid": "appliedenergistics2:tile.BlockSkyChest",
       "meta": 0,
-      "color": "#b6b3a6"
+      "color": "#b5b2a5"
     },
     {
       "name": "Сундук-ловушка",
@@ -17096,7 +17184,7 @@ var colorpalette={
       "name": "Творческая энергетическая ячейка",
       "uid": "appliedenergistics2:tile.BlockCreativeEnergyCell",
       "meta": 0,
-      "color": "#b5b2a7"
+      "color": "#b6b3a7"
     },
     {
       "name": "Творческий генератор Стирлинга",
@@ -17841,7 +17929,8 @@ var colorpalette={
       "name": "Улучшенный руководитель по строительству",
       "uid": "OpenBlocks:builder_guide",
       "meta": 0,
-      "color": "#cccccc"
+      "color": "#cccccc",
+      "alpha": 0.58431375
     },
     {
       "name": "Универсальная жидкостная труба",
@@ -18028,7 +18117,8 @@ var colorpalette={
       "name": "Усиленная ламинатная панель",
       "uid": "hbm:tile.reinforced_laminate_pane",
       "meta": 0,
-      "color": "#50b8aa"
+      "color": "#50b8aa",
+      "alpha": 0.49411765
     },
     {
       "name": "Усиленная лампа",
@@ -18076,7 +18166,8 @@ var colorpalette={
       "name": "Усиленный ламинат",
       "uid": "hbm:tile.reinforced_laminate",
       "meta": 0,
-      "color": "#50b8aa"
+      "color": "#50b8aa",
+      "alpha": 0.49411765
     },
     {
       "name": "Усиленный песчаник",
@@ -18094,7 +18185,7 @@ var colorpalette={
       "name": "Ускоритель роста кристаллов",
       "uid": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator",
       "meta": 0,
-      "color": "#b5b2a5"
+      "color": "#b5b2a7"
     },
     {
       "name": "Ускоряющие высокоскоростные рельсы",
@@ -19514,7 +19605,7 @@ var colorpalette={
       "name": "Энергичное кварцевое стекло",
       "uid": "appliedenergistics2:tile.BlockQuartzLamp",
       "meta": 0,
-      "color": "#b6b2a5",
+      "color": "#b5b2a6",
       "alpha": 0.4
     },
     {

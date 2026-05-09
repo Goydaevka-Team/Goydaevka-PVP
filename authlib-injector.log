@@ -1,28 +1,28 @@
-Logging started at 2026-05-02T19:37:15.214Z
+Logging started at 2026-05-09T13:01:21.510Z
 [authlib-injector] [INFO] Version: 1.2.7
-[authlib-injector] [INFO] Authentication server: http://localhost:54309
+[authlib-injector] [INFO] Authentication server: http://localhost:52278
 [authlib-injector] [WARNING] You are using HTTP protocol, which is INSECURE! Please switch to HTTPS if possible.
 [authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
 [authlib-injector] [INFO] Enable MC-52974 Workaround
 [authlib-injector] [INFO] Enable MC-52974 Workaround for 1.7.10
-[authlib-injector] [INFO] Httpd is running on port 59213
+[authlib-injector] [INFO] Httpd is running on port 59501
 [authlib-injector] [INFO] Transformed [net.minecraft.client.entity.AbstractClientPlayer] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [net.minecraft.util.Session] with [1.7.10 MC-52974 Workaround (Session)]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [MC-52974 Workaround]
-[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.patchy.BlockedServers] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [net.minecraft.network.play.server.S0CPacketSpawnPlayer] with [1.7.10 MC-52974 Workaround (S0CPacketSpawnPlayer)]
 [authlib-injector] [WARNING] An error occurred while processing request [/https/sessionserver.mojang.com/session/minecraft/profile/b72de8c9866e31ad8420839fa72c6d6e]
-java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:54309/sessionserver/session/minecraft/profile/b72de8c9866e31ad8420839fa72c6d6e?unsigned=false
+java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:52278/sessionserver/session/minecraft/profile/b72de8c9866e31ad8420839fa72c6d6e?unsigned=false
 	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryProfile(YggdrasilClient.java:92)
 	at moe.yushi.authlibinjector.httpd.QueryProfileFilter.handle(QueryProfileFilter.java:82)
 	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
 	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
 	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
 	at java.lang.Thread.run(Thread.java:750)
-Caused by: java.io.FileNotFoundException: http://localhost:54309/sessionserver/session/minecraft/profile/b72de8c9866e31ad8420839fa72c6d6e?unsigned=false
+Caused by: java.io.FileNotFoundException: http://localhost:52278/sessionserver/session/minecraft/profile/b72de8c9866e31ad8420839fa72c6d6e?unsigned=false
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1915)
 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:94)
 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1509)
@@ -35,4 +35,166 @@ Caused by: java.io.FileNotFoundException: http://localhost:54309/sessionserver/s
 	... 5 more
 
 [authlib-injector] [INFO] Transformed [journeymap.client.render.texture.TextureCache] with [Constant URL Transformer]
-[authlib-injector] [INFO] Transformed [com.mojang.patchy.BlockedServers] with [Constant URL Transformer]
+[authlib-injector] [WARNING] An error occurred while processing request [/http/skins.minecraft.net/MinecraftSkins/Reaper_db.png]
+java.io.UncheckedIOException: java.io.IOException: Failed to fetch skin metadata for Reaper_db
+	at moe.yushi.authlibinjector.util.IOUtils.newUncheckedIOException(IOUtils.java:99)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:81)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Failed to fetch skin metadata for Reaper_db
+	... 6 more
+Caused by: java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUID(YggdrasilClient.java:80)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:75)
+	... 4 more
+Caused by: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1915)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:94)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1509)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1507)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1506)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/http/skins.minecraft.net/MinecraftSkins/RainbowKurw.png]
+java.io.UncheckedIOException: java.io.IOException: Failed to fetch skin metadata for RainbowKurw
+	at moe.yushi.authlibinjector.util.IOUtils.newUncheckedIOException(IOUtils.java:99)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:81)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Failed to fetch skin metadata for RainbowKurw
+	... 6 more
+Caused by: java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUID(YggdrasilClient.java:80)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:75)
+	... 4 more
+Caused by: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1915)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:94)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1509)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1507)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1506)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/http/skins.minecraft.net/MinecraftSkins/Kikita.png]
+java.io.UncheckedIOException: java.io.IOException: Failed to fetch skin metadata for Kikita
+	at moe.yushi.authlibinjector.util.IOUtils.newUncheckedIOException(IOUtils.java:99)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:81)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Failed to fetch skin metadata for Kikita
+	... 6 more
+Caused by: java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUID(YggdrasilClient.java:80)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:75)
+	... 4 more
+Caused by: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1915)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:94)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1509)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1507)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1506)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/http/skins.minecraft.net/MinecraftSkins/Lucius_Wrath.png]
+java.io.UncheckedIOException: java.io.IOException: Failed to fetch skin metadata for Lucius_Wrath
+	at moe.yushi.authlibinjector.util.IOUtils.newUncheckedIOException(IOUtils.java:99)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:81)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Failed to fetch skin metadata for Lucius_Wrath
+	... 6 more
+Caused by: java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUID(YggdrasilClient.java:80)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:75)
+	... 4 more
+Caused by: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1915)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:94)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1509)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1507)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1506)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/http/skins.minecraft.net/MinecraftSkins/McHeliDummyEntity.png]
+java.io.UncheckedIOException: java.io.IOException: Failed to fetch skin metadata for McHeliDummyEntity
+	at moe.yushi.authlibinjector.util.IOUtils.newUncheckedIOException(IOUtils.java:99)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:81)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Failed to fetch skin metadata for McHeliDummyEntity
+	... 6 more
+Caused by: java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUID(YggdrasilClient.java:80)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:75)
+	... 4 more
+Caused by: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1915)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:94)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1509)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1507)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1506)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [WARNING] An error occurred while processing request [/http/skins.minecraft.net/MinecraftSkins/Dragunov37.png]
+java.io.UncheckedIOException: java.io.IOException: Failed to fetch skin metadata for Dragunov37
+	at moe.yushi.authlibinjector.util.IOUtils.newUncheckedIOException(IOUtils.java:99)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:81)
+	at moe.yushi.authlibinjector.httpd.URLProcessor$1.serve(URLProcessor.java:142)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.HTTPSession.execute(HTTPSession.java:246)
+	at moe.yushi.authlibinjector.internal.fi.iki.elonen.NanoHTTPD$ClientHandler.run(NanoHTTPD.java:104)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: Failed to fetch skin metadata for Dragunov37
+	... 6 more
+Caused by: java.io.UncheckedIOException: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:65)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUID(YggdrasilClient.java:80)
+	at moe.yushi.authlibinjector.httpd.LegacySkinAPIFilter.handle(LegacySkinAPIFilter.java:75)
+	... 4 more
+Caused by: java.io.FileNotFoundException: http://localhost:52278/api/profiles/minecraft
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1915)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:94)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1509)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1507)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1506)
+	at moe.yushi.authlibinjector.util.IOUtils.http(IOUtils.java:66)
+	at moe.yushi.authlibinjector.yggdrasil.YggdrasilClient.queryUUIDs(YggdrasilClient.java:61)
+	... 6 more
+
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository] with [Constant URL Transformer]

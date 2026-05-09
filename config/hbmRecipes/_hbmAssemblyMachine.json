@@ -8666,23 +8666,7 @@
       "power": 100
     },
     {
-      "name": "ass.embt",
-      "inputItem": [
-        ["dict","plateTripleSteel",24],
-        ["item","gtd:item.tank_component",12],
-        ["item","gtd:item.tank_component",8,3],
-        ["item","gtd:item.tank_component",4,1],
-        ["item","hbm:item.motor",4],
-        ["item","hbm:item.weapon_mod_special",1,22]
-      ],
-      "outputItem": [
-        ["single",["mcheli:embt"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.2s38",
+      "name": "ass.bmp2m",
       "inputItem": [
         ["dict","plateTripleAluminum",8],
         ["item","gtd:item.tank_component",12],
@@ -8690,7 +8674,7 @@
         ["item","hbm:item.weapon_mod_special",1,22]
       ],
       "outputItem": [
-        ["single",["mcheli:2s38"]]
+        ["single",["mcheli:bmp2m"]]
       ],
       "duration": 100,
       "power": 100
@@ -8710,21 +8694,6 @@
       "power": 100
     },
     {
-      "name": "ass.puma",
-      "inputItem": [
-        ["dict","plateTripleSteel",8],
-        ["item","gtd:item.tank_component",12],
-        ["item","hbm:item.motor",4],
-        ["item","hbm:item.weapon_mod_special",1,22],
-        ["item","gtd:item.tank_component",8,1]
-      ],
-      "outputItem": [
-        ["single",["mcheli:puma"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
       "name": "ass.vt4a1",
       "inputItem": [
         ["dict","plateTripleSteel",16],
@@ -8736,20 +8705,6 @@
       ],
       "outputItem": [
         ["single",["mcheli:vt4a1"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.ebrc",
-      "inputItem": [
-        ["dict","plateTripleAluminum",8],
-        ["item","gtd:item.wheel",8],
-        ["item","hbm:item.motor",6],
-        ["item","hbm:item.weapon_mod_special",1,22]
-      ],
-      "outputItem": [
-        ["single",["mcheli:ebrc"]]
       ],
       "duration": 100,
       "power": 100
@@ -8777,20 +8732,6 @@
       ],
       "outputItem": [
         ["single",["mcheli:tos1m"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.zbl08",
-      "inputItem": [
-        ["dict","plateTripleSteel",8],
-        ["item","gtd:item.wheel",8],
-        ["item","hbm:item.motor",6],
-        ["item","hbm:item.weapon_mod_special",1,22]
-      ],
-      "outputItem": [
-        ["single",["mcheli:zbl08"]]
       ],
       "duration": 100,
       "power": 100

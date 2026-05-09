@@ -1,0 +1,13 @@
+# WGCore legacy rewards scaffold
+#
+# Reward values are now authoritatively defined in wgcore.cfg
+# under the rewards category.
+#
+# This file remains only so the config folder layout stays stable
+# and future non-core YAML hooks can still live here if needed.
+#
+# It is intentionally NOT a runtime source of truth for war rewards.
+
+# future_hooks:
+#   enabled: false
+#   notes: []
