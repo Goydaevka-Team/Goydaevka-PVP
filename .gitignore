@@ -36,4 +36,7 @@ resourcepacks/README-RESOURCEPACK.txt
 *.7z
 /journeymap
 
-/config
+/config/*
+!/config/CustomMainMenu
+!/config/Betterloadingscreen
+!/config/smoothfont

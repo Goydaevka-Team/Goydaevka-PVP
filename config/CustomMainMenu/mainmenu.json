@@ -1,0 +1,147 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:textures/modpack_logo.png",
+            "posX" : -150,
+            "posY" : -30,
+            "width" : 306,
+            "height" : 178,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Модули ЭВМ",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Параметры ЭВМ",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Покинуть пост",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "label":
+        {
+            "text" : "Установленные модификации: #modsloaded#. Версия Forge: #fmlversion#",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		"label2":
+        {
+            "text" : "Приветствую, #username#. Система 'Периметр' активна.",
+            "posX" : -97,
+            "posY" : 40,
+			"alignment" : "button",
+            "color" : -1
+        }
+		
+    },
+    
+    "other":
+    {
+		
+        "background":
+		{
+			"image" : "modpack:textures/main_menu.jpg",
+			"mode" : "stretch"
+		}
+
+    }
+    
+}
