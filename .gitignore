@@ -16,13 +16,14 @@ resourcepacks/README-RESOURCEPACK.txt
 !/mods/mcheli/assets/mcheli/
 
 # 4. Внутри assets/mcheli игнорируем всё, кроме textures
-/mods/mcheli/assets/mcheli/*
-!/mods/mcheli/assets/mcheli/textures/
+#/mods/mcheli/assets/mcheli/*
+#!/mods/mcheli/assets/mcheli/textures/
 
 # 5. Внутри textures игнорируем всё, кроме gui
-/mods/mcheli/assets/mcheli/textures/*
-!/mods/mcheli/assets/mcheli/textures/gui/
+#/mods/mcheli/assets/mcheli/textures/*
+#!/mods/mcheli/assets/mcheli/textures/gui/
 
+/mods/mcheli/assets/mcheli/*
 !/mods/mcheli/assets/mcheli/tanks
 !/mods/mcheli/assets/mcheli/weapons
 /cache
@@ -34,3 +35,5 @@ resourcepacks/README-RESOURCEPACK.txt
 /journeymap
 *.7z
 /journeymap
+
+/config

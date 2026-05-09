@@ -1,0 +1,55 @@
+DisplayName = MO.1.01.04 [HE]
+Type = Rocket
+Power = 0
+Acceleration = 6
+Flaming = true
+Sight = None
+Gravity = -0.05
+Delay = 2
+SoundVolume = 0.6
+SoundPitch = 1.0
+locktime = 1
+RigidityTime = 500
+SmokeSize   = 5
+SmokeMaxAge = 500
+
+Explosion = 6
+ExplosionBlock = 0
+Round = 30
+ReloadTime = 100
+ModelBullet = m30
+
+Group = Rocket
+Sound = missile_10_snd
+DisplayMortarDistance = true
+
+DamageFactor = plane, 1.5
+
+Accuracy = 2
+MaxAmmo = 30
+SuppliedNum = 15
+Item =  1, iron_ingot
+Item =  1, gunpowder
+canBeIntercepted=true
+
+DisableDestroyBlock=false
+ExplosionType=hbmNT_Bomb
+effectyield = 3
+
+EnableMortarRadar=true
+MortarRadarMaxDist=500
+
+;cross_type0_10:radar,rocket,missile
+crosstype=1
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=3
+ExplosionDamageVsPlane=4
+ExplosionDamageVsHeli=4
+ExplosionDamageVsVehicle=1
+ExplosionDamageVsShip=4
+enableExhaustFlare=false
+SpeedFactor = 0.03
+SpeedFactorStartTick = 10
+SpeedFactorEndTick = 15
+enableChunkLoader = true
