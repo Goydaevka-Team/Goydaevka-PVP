@@ -40,8 +40,8 @@ RecoilYawRange = 0.4
 RecoilRecoverFactor = 0.06
 
 MaxAmmo = 640
-SuppliedNum = 320
-Item =  1, iron_ingot
+SuppliedNum = 30
+Item =  1, gtd:item.tank_ammo, 1
 canBeIntercepted=false
 
 crosstype=3

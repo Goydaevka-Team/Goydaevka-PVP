@@ -60,12 +60,12 @@ BoundingBox =  -0.35, 2.5, -14.5, 0.4, 4.5, 4, 1.4, DEFAULT, ROTOR
 
 
 RadarType = EARLY_AS
-NameOnModernAARadar = S60
-NameOnEarlyAARadar = S60
-NameOnModernASRadar = S60
-NameOnEarlyASRadar = S60
+NameOnModernAARadar = SH60
+NameOnEarlyAARadar = UH60
+NameOnModernASRadar = SH60
+NameOnEarlyASRadar = UH60
 enablerwr = true
-AirRadarRange = 300
+AirRadarRange = 200
 GroundRadarRange = 300
 StealthFactor = 1.0
 

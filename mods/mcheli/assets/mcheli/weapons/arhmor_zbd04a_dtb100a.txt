@@ -2,7 +2,7 @@ DisplayName = DTB100A [ARH Assisted Mortar]
 Type = ATmissile
 Power = 250
 Explosion = 4
-ExplosionBlock = 0
+ExplosionBlock = 2
 Acceleration = 5
 Sound = bmp_100_SND
 SoundVolume = 10.0
@@ -27,7 +27,7 @@ Reloadtime = 10
 HeatCount = 250
 MaxHeatCount = 500
 
-DisableDestroyBlock=true
+DisableDestroyBlock=false
 NukeEffectOnly=true
 ExplosionType=hbmNT_Shell
 effectYield=5
@@ -35,9 +35,8 @@ effectYield=5
 
 
 MaxAmmo = 4
-SuppliedNum = 4
-Item =  1, iron_ingot
-Item =  1, gunpowder
+SuppliedNum = 1
+Item =  1, hbm:item.ammo_shell, 1
 
 DisplayMortarDistance = true
 
@@ -69,8 +68,6 @@ RecoilBufCount = 40, 5
 
 MaxAmmo = 20
 SuppliedNum = 10
-Item =  10, iron_ingot
-Item =  20, gunpowder
 canBeIntercepted=false
 canBeIntercepted=false
 

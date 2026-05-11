@@ -47,9 +47,9 @@ ChaffUseTime = 40
 ChaffWaitTime = 800
 
 RadarType = MODERN_AS
-NameOnModernAARadar = AH1
+NameOnModernAARadar = AH1Z
 NameOnEarlyAARadar = AH1
-NameOnModernASRadar = AH1
+NameOnModernASRadar = AH1Z
 NameOnEarlyASRadar = AH1
 enablerwr = true
 AirRadarRange = 250

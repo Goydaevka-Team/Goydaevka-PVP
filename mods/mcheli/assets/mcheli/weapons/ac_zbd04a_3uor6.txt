@@ -37,9 +37,8 @@ AddMuzzleFlashSmoke =  3.8,  1,   5.0,  2.0, 15,  180,250,245,240
 AddMuzzleFlashSmoke =  2.2,  1,   3.0,  1.0,  5,  180,220,217,214
 
 MaxAmmo = 150
-SuppliedNum = 150
-Item =  2, iron_ingot
-Item =  2, gunpowder
+SuppliedNum = 20
+Item =  1, gtd:item.tank_ammo, 1
 
 DisableDestroyBlock=true
 NukeEffectOnly=true

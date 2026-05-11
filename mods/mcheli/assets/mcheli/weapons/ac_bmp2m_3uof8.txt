@@ -42,7 +42,7 @@ AddMuzzleFlashSmoke =  2.8,  1,   5.0,  2.0, 15,  180,250,245,240
 AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 
 MaxAmmo = 250
-SuppliedNum = 10
+SuppliedNum = 20
 Item =  1, gtd:item.tank_ammo, 1
 
 WeaponSwitchSound = Switch_APC_Cannon

@@ -47,7 +47,7 @@ ChaffUseTime = 40
 ChaffWaitTime = 400
 
 RadarType = MODERN_AS
-NameOnModernAARadar = M28
+NameOnModernAARadar = M28NE
 NameOnEarlyAARadar = M28
 NameOnModernASRadar = M28
 NameOnEarlyASRadar = M28

@@ -38,7 +38,7 @@ RecoilYawRange = 0.4
 RecoilRecoverFactor = 0.06
 
 MaxAmmo = 1904
-SuppliedNum = 10
+SuppliedNum = 30
 Item =  1, gtd:item.tank_ammo, 1
 canBeIntercepted=false
 

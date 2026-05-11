@@ -104,13 +104,13 @@ ThrottleUpDown = 0.4
 DamageFactor = 0.8
 
 RadarType = EARLY_AS
-NameOnModernAARadar = MH60
-NameOnEarlyAARadar = MH60
+NameOnModernAARadar = MH60G
+NameOnEarlyAARadar = UH60
 NameOnModernASRadar = MH60
-NameOnEarlyASRadar = MH60
+NameOnEarlyASRadar = UH60
 enablerwr = true
-AirRadarRange = 300
-GroundRadarRange = 300
+AirRadarRange = 250
+GroundRadarRange = 10
 StealthFactor = 1.0
 
 hasMaintenance = true

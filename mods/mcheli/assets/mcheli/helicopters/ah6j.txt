@@ -39,10 +39,10 @@ BoundingBox =  0.0, 4.00, 0.00,  7, 0.2, 7, 2.5, DEFAULT, MAIN ROTOR
 FlareType = 3
 
 RadarType = MODERN_AS
-NameOnModernAARadar = A6J
-NameOnEarlyAARadar = A6J
-NameOnModernASRadar = A6J
-NameOnEarlyASRadar = AH6J
+NameOnModernAARadar = AH6J
+NameOnEarlyAARadar = AH6
+NameOnModernASRadar = AH6J
+NameOnEarlyASRadar = AH6
 enablerwr = true
 AirRadarRange = 250
 GroundRadarRange = 400
