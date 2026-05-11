@@ -38,22 +38,6 @@ recipes.removeShaped(<mcheli:fim92_bullet>);
 recipes.removeShaped(<mcheli:drafting_table>);
 recipes.removeShaped(<mcheli:uav_station>);
 recipes.removeShaped(<mcheli:uav_station2>);
-recipes.addShaped(<gtd:item.tank_ammo:1>,
-	[[<ore:ingotAnyPlasticexplosive>, <ore:ingotAnyPlasticexplosive>, <ore:ingotAnyPlasticexplosive>],
-	[<ore:dustAnySmokeless>, <ore:dustAnySmokeless>, <ore:dustAnySmokeless>],
-	[<hbm:item.ingot_copper>, <hbm:item.ingot_copper>, <hbm:item.ingot_copper>]]);
-recipes.addShaped(<gtd:item.tank_ammo>,
-	[[<hbm:item.ingot_tungsten>, <hbm:item.ingot_tungsten>, <hbm:item.ingot_tungsten>],
-	[<ore:dustAnySmokeless>, <ore:dustAnySmokeless>, <ore:dustAnySmokeless>],
-	[<hbm:item.ingot_copper>, <hbm:item.ingot_copper>, <hbm:item.ingot_copper>]]);
-recipes.addShaped(<gtd:item.tank_ammo:2>,
-	[[<ore:ingotAnyPlasticexplosive>, <hbm:item.rocket_fuel>, null],
-	[<hbm:item.circuit:7>, <hbm:item.shell:30>, <hbm:item.thruster_small>],
-	[<ore:ingotAnyPlasticexplosive>, <hbm:item.rocket_fuel>, null]]);
-recipes.addShaped(<gtd:item.tank_ammo:3>,
-	[[null, <ore:ingotAnyPlasticexplosive>, null],
-	[<ore:dustAnySmokeless>, <hbm:item.shell:2900>, <ore:dustAnySmokeless>],
-	[<hbm:item.ingot_copper>, <hbm:item.ingot_copper>, <hbm:item.ingot_copper>]]);
 recipes.addShaped(<mcheli:fgm148_bullet>,
 	[[<ore:ingotAnyPlasticexplosive>, <hbm:item.rocket_fuel>, null],
 	[<hbm:item.circuit:7>, <hbm:item.shell:30>, <hbm:item.thruster_small>],
@@ -62,3 +46,11 @@ recipes.addShaped(<mcheli:fgm148>,
 	[[<hbm:item.shell:30>, <hbm:item.shell:30>, <hbm:item.shell:30>],
 	[<hbm:item.circuit:8>, <hbm:item.armor_battery>, <hbm:item.ingot_polymer>],
 	[<hbm:item.ingot_polymer>, <hbm:item.ingot_polymer>, <hbm:item.ingot_polymer>]]);
+recipes.addShaped(<mcheli:9m133>,
+	[[<minecraft:dye:2>, <hbm:item.plate_cast:30>, <minecraft:glass_pane>],
+	[<hbm:item.part_barrel_light:30>, <hbm:tile.steel_beam>, null],
+	[<hbm:tile.steel_beam>, <hbm:item.circuit:8>, <hbm:tile.steel_beam>]]);
+recipes.addShaped(<mcheli:m220tow>,
+	[[<minecraft:dye:14>, <hbm:item.plate_cast:30>, <minecraft:glass_pane>],
+	[<hbm:item.part_barrel_light:30>, <hbm:tile.steel_beam>, null],
+	[<hbm:tile.steel_beam>, <hbm:item.circuit:8>, <hbm:tile.steel_beam>]]);

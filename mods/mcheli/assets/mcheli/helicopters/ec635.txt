@@ -1,0 +1,76 @@
+DisplayName = EC635
+AddDisplayName = zh_CN,EC635
+AddDisplayName = en_US,EC635
+MaxHp = 250
+
+Category = M.A
+ItemID = 28801
+HUD = HELI, HELI_GUNNER,TRANS_PASSENGER,TRANS_PASSENGER,TRANS_PASSENGER,TRANS_PASSENGER
+ThirdPersonDist = 12
+Speed = 1
+ThrottleUpDown = 0.9
+MinRotationPitch = -70
+MaxRotationPitch = 70
+Soundvolume = 10
+Sound = heli15_idle
+
+Gravity = -0.038
+MaxFuel = 900
+FuelConsumption = 1
+
+CameraPosition = 0.0, 0.0, 0.0
+EnableNightVision = true
+AddSeat = 0.4580,  1.245,  2.979
+AddSeat = 1.85,  1.028,  0.5719
+AddSeat = -1.85,  1.028,  0.5719
+AddGunnerSeat = -0.4580,  1.245,  2.979,1.17, 0.2783, 3.395,  true
+
+ArmorMinDamage = 12
+damagefactor = 0
+engineShutdownThreshold = 10
+explosionsizebycrash = 2
+BoundingBox =  0.0, 1.65, 1.93,  3, 3, 3, 1.0, DEFAULT, COCKPIT
+BoundingBox =  0.0, 1.65, -1.06,  3, 3, 3, 1.0, DEFAULT, BACK
+BoundingBox =  0.0, 2.08, -4.04,  1, 1, 3.0, 1.0, DEFAULT, TAIL
+BoundingBox =  0.0, 2.8, -6.8,  2.0, 3.0, 2.5, 1.5, DEFAULT, TAIL ROTOR
+BoundingBox =  0.0, 4.0, 1.0,  7, 0.2, 7, 1.5, DEFAULT, MAIN ROTOR
+
+FlareType = 3
+
+RadarType = MODERN_AS
+NameOnModernAARadar = 635
+NameOnEarlyAARadar = 635
+NameOnModernASRadar = 635
+NameOnEarlyASRadar = 635
+enablerwr = true
+AirRadarRange = 600
+GroundRadarRange = 300
+StealthFactor = 1.0
+
+hasMaintenance = true
+maintenanceUseTime = 20
+maintenanceWaitTime = 1200
+
+;Parts
+AddRotor = 1,0,  -0.0000486,  4.358,  0.9234,  0.0, 1.0, 0.0
+AddRotor = 1,0,  0,  2.388, -6.761,  1.0, 0.0, 0.0
+
+AddPartSteeringWheel = 0.4721,1.04,3.322, 0, 0, 1,   -20
+AddPartSteeringWheel = -0.4721,1.04,3.322, 0, 0, 1,   -20
+
+;Weapons
+AddPartWeapon = Heli_MissileStrike    true,  true, false,   1.17, 0.4850, 3.395
+
+AddWeapon = ac_ec635_2x30mm, -1.858, 0.50, 1.7,   -0.3, 0.0
+AddWeapon = ac_ec635_2x30mm,  1.858, 0.50, 1.7,  0.3, 0.0
+AddWeapon = iraam_ec635_aim92, -2.6, 0.6631, 1.15,   -0.5, 0.0
+AddWeapon = iraam_ec635_aim92, -2.6, 0.6631, 1.15,   -0.5, 0.0
+
+AddWeapon = GUNNER_MARK,          0.00,150.00, -0.00,  0.0, -80.0, false,2, 0,-360,360, -180, 180
+AddWeapon = Heli_EC635_GUNNER_MissileStrike,          0.00,150.00, 0,  0.0, -80.0, false,2, 0,-360,360, -180, 180
+weapongrouptype = 9
+
+;MISC
+;Place misc paramters here
+EnableParachuting = true
+MobDropOption = 2.0, 0.0, -2.5,  10
