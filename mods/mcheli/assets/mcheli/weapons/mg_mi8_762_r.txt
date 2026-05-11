@@ -19,7 +19,7 @@ DamageFactor = helicopter,2
 DamageFactor = plane,2
 Modelbullet = 76mm
 MaxAmmo = 1200
-SuppliedNum = 4
+SuppliedNum = 10
 Item =  1, hbm:item.ammo_standard, 29
 
 

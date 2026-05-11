@@ -28,7 +28,7 @@ AddMuzzleFlashSmoke =  2.2,  1,   4.0,  1.0, 15,  180,250,245,240
 AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 
 MaxAmmo = 1000
-SuppliedNum = 4
+SuppliedNum = 10
 Item =  1, hbm:item.ammo_standard, 29
 canBeIntercepted=false
 canBeIntercepted=false

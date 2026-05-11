@@ -44,10 +44,10 @@ ChaffUseTime = 40
 ChaffWaitTime = 500
 
 RadarType = MODERN_AS
-NameOnModernAARadar = Z10
+NameOnModernAARadar = Z10W
 NameOnEarlyAARadar = Z10
-NameOnModernASRadar = Z10
-NameOnEarlyASRadar = Z10
+NameOnModernASRadar = Z10W
+NameOnEarlyASRadar = ?
 enablerwr = true
 AirRadarRange = 250
 GroundRadarRange = 750

@@ -27,10 +27,10 @@ explosionsizebycrash = 1
 BoundingBox = 0.0, 1.14,0.0,  2.0, 1.5
 
 RadarType = EARLY_AS
-NameOnModernAARadar = UAV
-NameOnEarlyAARadar = UAV
+NameOnModernAARadar = FPV
+NameOnEarlyAARadar = ?
 NameOnModernASRadar = UAV
-NameOnEarlyASRadar = UAV
+NameOnEarlyASRadar = ?
 enableRWR = false
 
 ;Parts

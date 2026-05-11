@@ -19,9 +19,7 @@ SoundVolume = 10
 RigidityTime = 0
 MaxAmmo = 4
 SuppliedNum = 1
-Item =  1, iron_ingot
-Item =  1, gunpowder
-Item =  1, redstone
+Item =  1, hbm:item.ammo_standard, 58
 
 enableBVR=true
 predictTargetPos = false

@@ -48,9 +48,9 @@ ChaffWaitTime = 500
 
 RadarType = MODERN_AS
 NameOnModernAARadar = 64E
-NameOnEarlyAARadar = 64E
+NameOnEarlyAARadar = 64
 NameOnModernASRadar = 64E
-NameOnEarlyASRadar = 64E
+NameOnEarlyASRadar = ?
 enablerwr = true
 AirRadarRange = 500
 GroundRadarRange = 1000
