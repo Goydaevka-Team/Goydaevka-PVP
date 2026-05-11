@@ -43,9 +43,8 @@ AddMuzzleFlashSmoke = 11.3, 5,  13.0,  7.0, 55,  200,190,170,150
 RecoilBufCount = 40, 5
 
 MaxAmmo = 20
-SuppliedNum = 5
-Item =  20, iron_ingot
-Item =  10, gunpowder
+SuppliedNum = 1
+Item =  1, hbm:item.ammo_shell, 1
 
 
 FlakParticlesCrack = 300
