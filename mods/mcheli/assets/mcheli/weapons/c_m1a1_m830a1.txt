@@ -28,7 +28,7 @@ DamageFactor = tank, 1.0
 Piercing  =1
 
 
-DisableDestroyBlock=true
+DisableDestroyBlock=false
 NukeEffectOnly=true
 
 
