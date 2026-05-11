@@ -22,7 +22,7 @@ DamageFactor = plane,2
 DamageFactor = player, 1.0
 
 MaxAmmo = 1000
-SuppliedNum = 3
+SuppliedNum = 4
 Item =  1, hbm:item.ammo_standard, 34
 ;AddMuzzleFlash      =  1.2,      0.22,        2,  170,254,159,84
 ;AddMuzzleFlash      =  1.1,      0.20,        1,  150,254,219,184
