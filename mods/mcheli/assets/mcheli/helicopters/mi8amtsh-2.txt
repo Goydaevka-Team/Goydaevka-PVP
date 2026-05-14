@@ -86,8 +86,8 @@ NameOnModernAARadar = MI8
 NameOnModernAARadar = MI8
 NameOnModernAARadar = MI8
 enablerwr = true
-AirRadarRange = 250
-GroundRadarRange = 150
+AirRadarRange = 100
+GroundRadarRange = 10
 StealthFactor = 1.0
 
 AddPartSteeringWheel =   0.5555,  0.6351,  1.3488,  0, 0, 1,   -20

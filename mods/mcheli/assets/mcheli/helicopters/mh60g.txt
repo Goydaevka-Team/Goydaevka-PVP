@@ -109,7 +109,7 @@ NameOnEarlyAARadar = UH60
 NameOnModernASRadar = MH60
 NameOnEarlyASRadar = UH60
 enablerwr = true
-AirRadarRange = 250
+AirRadarRange = 100
 GroundRadarRange = 10
 StealthFactor = 1.0
 
