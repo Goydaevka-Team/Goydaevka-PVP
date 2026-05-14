@@ -13,6 +13,7 @@ PivotTurnThrottle = 0.0
 StepHeight = 1.5
 MobilityYawOnGround = 2
 DefaultFreelook = true
+Category = 0
 
 Sound = JeepMove
 Float = false

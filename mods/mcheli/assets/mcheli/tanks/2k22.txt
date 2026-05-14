@@ -1,7 +1,8 @@
 DisplayName = 2K22 TUNGUSKA-M
 AddDisplayName = zh_CN, 2K22 通古斯卡-M
 AddDisplayName = en_US, 2K22 TUNGUSKA-M
-MaxHp = 700
+MaxHp = 400
+Category = 1
 
 ItemID = 91129
 HUD = SPAA, MBT_GUNNER

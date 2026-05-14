@@ -29,6 +29,7 @@ AirRadarRange = 10
 GroundRadarRange = 1000
 ArmorMinDamage = 10
 ArmorDamageFactor = 0.95
+Category = 3
 
 WeightType =  Car
 WeightedCenterZ = 0

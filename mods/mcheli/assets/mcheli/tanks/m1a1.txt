@@ -3,6 +3,7 @@ AddDisplayName = zh_CN,M1A1HC 主战坦克("标题党"号)
 AddDisplayName = en_US,M1A1HC
 MaxHp = 1000
 
+Category = 1
 ItemID = 30101
 HUD = MBT, MBT_GUNNER
 ThirdPersonDist = 12
@@ -95,6 +96,8 @@ AddTurretWeapon = mg_m1a1_m2hb, -0.6917,3.217, -0.1339, 0.0, 0.0, false, 2, 0, -
 AddTurretWeapon = GUNNER_DEFENSE,          0, 1, 0,  0.0, 0, false,2, 0,-0,0, 0, 0
 
 weapongrouptype = 6
+
+HasPhotoelectricJammer = true
 
 ;MISC
 ;Place misc paramters here

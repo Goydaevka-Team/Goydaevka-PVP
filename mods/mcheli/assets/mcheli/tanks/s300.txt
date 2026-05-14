@@ -19,7 +19,7 @@ EnableBack = true
 Soundvolume = 10
 Sound = tank14_idle
 hasAARadar = true
-Category = C
+Category = 3
 
 WeightType = Tank
 

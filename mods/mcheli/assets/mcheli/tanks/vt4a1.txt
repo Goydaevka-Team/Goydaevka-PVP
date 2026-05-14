@@ -1,7 +1,8 @@
-DisplayName = VT-4A1
+DisplayName = VT-4A1 [GL-6 APS]
 AddDisplayName = zh_CN,VT-4A1 主战坦克
-AddDisplayName = en_US,VT-4A1
-MaxHp = 1200
+AddDisplayName = en_US,VT-4A1 [GL-6 APS]
+MaxHp = 1100
+Category = 2
 
 ItemID = 91128
 HUD = MBT, MBT_GUNNER
@@ -52,9 +53,9 @@ SubmergedDamageHeight = 2
 
 FlareType = 10
 hasaps = true
-apsUseTime = 100
-apsWaitTime = 400
-apsRange = 8
+apsUseTime = 500
+apsWaitTime = 1000
+apsRange = 12
 
 NameOnAdvancedAARadar = VT4
 NameOnModernAARadar = MBT

@@ -3,6 +3,7 @@ AddDisplayName = zh_CN,M1150 突击破障车
 AddDisplayName = en_US,M1150 ABV
 MaxHp = 1200
 
+Category = 2
 ItemID = 30101
 HUD = MBT, MBT_GUNNER
 ThirdPersonDist = 12

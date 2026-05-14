@@ -2,6 +2,7 @@ DisplayName = TOS-1M
 AddDisplayName = zh_CN,TOS-1M 火箭炮
 AddDisplayName = en_US,TOS-1M
 MaxHp = 400
+Category = 3
 
 ItemID = 91128
 HUD = mlrs, mbt_gnr2

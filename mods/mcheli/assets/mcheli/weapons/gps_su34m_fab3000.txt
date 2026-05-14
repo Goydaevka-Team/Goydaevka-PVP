@@ -4,7 +4,7 @@ Type = ASmissile
 Power = 1000
 Acceleration = 0.1
 Explosion = 25
-Explosionblock=8
+Explosionblock=128
 Flaming = false
 Sight = MoveSight
 ModelBullet = FAB3000UMPK
@@ -18,7 +18,7 @@ locktime=0
 
 
 DisplayMortarDistance = true
-DisableDestroyBlock=true
+DisableDestroyBlock=false
 NukeEffectOnly=true
 ExplosionType=hbmNT_Bomb
 

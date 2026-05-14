@@ -1,4 +1,4 @@
-DisplayName = 40mm Áñµ¯»úÇ¹
+DisplayName = 40mm
 Type = Rocket
 ModelBullet = bullet76mm
 Power = 20
@@ -44,9 +44,8 @@ AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 
 
 MaxAmmo = 120
-SuppliedNum = 12
-Item =  3, iron_ingot
-Item =  3, gunpowder
+SuppliedNum = 2
+Item =  1, hbm:item.ammo_standard, 53
 canBeIntercepted=true
 canBeIntercepted=true
 canBeIntercepted=true

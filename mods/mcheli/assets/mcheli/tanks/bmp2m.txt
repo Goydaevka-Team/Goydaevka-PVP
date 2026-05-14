@@ -1,7 +1,8 @@
 DisplayName = BMP-2M
 AddDisplayName = zh_CN,BMP-2M 步兵战车
 AddDisplayName = en_US,BMP-2M
-MaxHp = 700
+MaxHp = 750
+Category = 1
 
 ItemID = 91129
 HUD = IFV, MBT_GUNNER

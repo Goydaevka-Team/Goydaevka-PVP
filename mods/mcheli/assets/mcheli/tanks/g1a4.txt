@@ -3,6 +3,7 @@ AddDisplayName = zh_CN, 猎豹1A4 自行防空炮
 AddDisplayName = en_US, GEPARD 1A4
 MaxHp = 500
 
+Category = 1
 ItemID = 91129
 HUD = SPAA, MBT_GUNNER
 Speed = 0.7
