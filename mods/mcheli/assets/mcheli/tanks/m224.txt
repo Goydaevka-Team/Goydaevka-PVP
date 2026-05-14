@@ -3,7 +3,7 @@ AddDisplayName = zh_CN, M224 迫击炮
 AddDisplayName = en_US, M224 MORTAR
 MaxHp = 50
 
-Category = W.A
+Category = 1
 HUD = M224
 ThirdPersonDist = 12
 Speed = 0

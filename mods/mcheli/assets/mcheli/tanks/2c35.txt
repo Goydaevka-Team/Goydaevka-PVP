@@ -24,6 +24,7 @@ OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
 FlareType = 10
 ThirdPersonDist = 8
+Category = 1
 
 SubmergedDamageHeight = 4
 

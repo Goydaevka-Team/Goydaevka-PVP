@@ -21,9 +21,8 @@ DamageFactor = plane, 2.0
 DamageFactor = ship, 3.0
 
 MaxAmmo = 1000
-SuppliedNum = 100
-Item =  2, iron_ingot
-Item =  2, gunpowder
+SuppliedNum = 30
+Item =  1, hbm:item.ammo_standard, 34
 
 
 AddMuzzleFlashSmoke =  1.0,  1,   5.0,  2.0, 15,  180,250,245,240

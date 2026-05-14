@@ -18,7 +18,7 @@ DefaultFreelook = true
 
 ArmorMinDamage = 8
 
-Category = H
+Category = 1
 
 SubmergedDamageHeight = 2
 OnGroundPitchFactor = 3.5

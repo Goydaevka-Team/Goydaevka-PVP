@@ -1,7 +1,8 @@
 DisplayName = ZBD-04A
 AddDisplayName = zh_CN,ZBD-04A 步兵战车
 AddDisplayName = en_US,ZBD-04A
-MaxHp = 800
+MaxHp = 700
+Category = 1
 
 ItemID = 91129
 HUD = IFV, MBT_GUNNER
@@ -18,7 +19,7 @@ DefaultFreelook = true
 
 Soundvolume = 10
 Sound = tank14_idle
-Float = false
+Float = true
 
 Gravity = -0.1
 GravityInWater = -0.1

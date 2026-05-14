@@ -1,4 +1,4 @@
-DisplayName = M830A1 [HE]
+DisplayName = M830A1 [HEAT]
 Type = MachineGun1
 Power = 100
 ModelBullet = tank_shell
@@ -42,7 +42,7 @@ RecoilBufCount = 40, 5
 
 MaxAmmo = 20
 SuppliedNum = 1
-Item =  1, hbm:item.ammo_shell, 1
+Item =  1, gtd:item.tank_ammo, 3
 
 
 FlakParticlesCrack = 300

@@ -27,8 +27,8 @@ NukeEffectOnly=true
 ExplosionType=hbmNT_Shell
 
 MaxAmmo = 38
-SuppliedNum = 19
-Item =  1, iron_ingot
+SuppliedNum = 1
+Item =  1, hbm:item.ammo_standard, 58
 
 WeaponSwitchSound = Switch_Jet_Weapon_Missile
 canBeIntercepted=true

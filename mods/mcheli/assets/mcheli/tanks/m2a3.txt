@@ -1,7 +1,8 @@
 DisplayName = M2A3 BRADLEY
 AddDisplayName = zh_CN, M2A3 布莱德利
 AddDisplayName = en_US, M2A3 BRADLEY
-MaxHp = 800
+MaxHp = 700
+Category = 1
 
 ItemID = 91129
 HUD = IFV, MBT_GUNNER

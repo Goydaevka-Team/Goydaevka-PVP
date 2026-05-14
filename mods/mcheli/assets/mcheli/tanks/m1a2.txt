@@ -1,8 +1,9 @@
-DisplayName = M1A2 SEPv3
+DisplayName = M1A2 SEPv3 [Trophy APS]
 AddDisplayName = zh_CN,M1A2 SEPv3 主战坦克
-AddDisplayName = en_US,M1A2 SEPv3
-MaxHp = 1200
+AddDisplayName = en_US,M1A2 SEPv3 [Trophy APS]
+MaxHp = 1000
 
+Category = 2
 ItemID = 30101
 HUD = MBT, MBT_GUNNER
 ThirdPersonDist = 12
@@ -53,9 +54,9 @@ SubmergedDamageHeight = 3
 
 FlareType = 10
 hasaps = true
-apsUseTime = 100
-apsWaitTime = 400
-apsRange = 8
+apsUseTime = 500
+apsWaitTime = 1000
+apsRange = 6
 
 NameOnAdvancedAARadar = M1A2
 NameOnModernAARadar = M1

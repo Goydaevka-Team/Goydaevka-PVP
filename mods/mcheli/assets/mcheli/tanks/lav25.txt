@@ -3,6 +3,7 @@ AddDisplayName = zh_CN,LAV-25 步兵战车
 AddDisplayName = en_US,LAV-25
 MaxHp = 625
 
+Category = 0
 ItemID = 91129
 HUD = IFV, MBT_GUNNER
 Speed = 0.7

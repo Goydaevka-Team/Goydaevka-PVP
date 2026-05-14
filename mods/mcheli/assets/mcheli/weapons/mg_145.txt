@@ -1,0 +1,44 @@
+DisplayName = MG 14.5
+Type = MachineGun1
+Power = 15
+Acceleration = 18.0
+Gravity = -0.004
+Explosion = 0
+Flaming = false
+Sight = None
+Delay = 3
+HeatCount = 10
+MaxHeatCount = 100
+SoundVolume = 10
+Round = 100
+Accuracy = 0.05
+SoundPitch = 1.0
+Sound = COAX_HMG_F
+
+DamageFactor = tank, 1.8
+DamageFactor = helicopter, 2.0
+DamageFactor = plane, 2.0
+DamageFactor = ship, 2.0
+
+MaxAmmo = 1000
+SuppliedNum = 30
+Item =  1, hbm:item.ammo_standard, 34
+
+
+AddMuzzleFlashSmoke =  1.0,  1,   5.0,  2.0, 15,  180,250,245,240
+AddMuzzleFlashSmoke =  0.8,  1,   3.0,  1.0,  5,  180,220,217,214
+canBeIntercepted=false
+canBeIntercepted=false
+ExplosionDamageVsLiving=1
+ExplosionDamageVsPlayer=1
+ExplosionDamageVsTank=1
+ExplosionDamageVsPlane=1
+ExplosionDamageVsHeli=1
+ExplosionDamageVsVehicle=1
+ExplosionDamageVsShip=1
+LaserGuidance = true
+HasLaserGuidancePod = true
+LockEntity=true
+CameraFollowLockEntity = false
+CameraFollowStrength = 1
+explosionblock=0

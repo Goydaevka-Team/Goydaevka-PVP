@@ -1,7 +1,8 @@
-DisplayName = T-90M
+DisplayName = T-90M [Arena-M APS]
 AddDisplayName = zh_CN,T-90M 主战坦克
-AddDisplayName = en_US,T-90M
-MaxHp = 1000
+AddDisplayName = en_US,T-90M [Arena-M APS]
+MaxHp = 1200
+Category = 2
 
 ItemID = 91128
 HUD = MBT, MBT_GUNNER
@@ -19,9 +20,9 @@ DefaultFreelook = true
 Sound = tank3_idle
 
 hasaps = true
-apsUseTime = 100
-apsWaitTime = 400
-apsRange = 8
+apsUseTime = 500
+apsWaitTime = 1000
+apsRange = 10
 
 Gravity = -0.1
 MotionFactor = 0.9

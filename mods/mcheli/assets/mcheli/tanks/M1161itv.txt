@@ -3,7 +3,7 @@ AddDisplayName = zh_CN, M1161 咆哮者
 AddDisplayName = en_US, M1161 ITV
 MaxHp = 150
 
-Category = C
+Category = 1
 HUD = M1161ITV,none
 ThirdPersonDist = 10
 Speed = 1.5

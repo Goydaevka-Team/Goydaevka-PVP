@@ -44,8 +44,8 @@ NumParticlesFlak = 10
 FlakParticlesDiff = 0.3
 
 MaxAmmo = 2000
-SuppliedNum = 2000
-Item =  1, iron_ingot
+SuppliedNum = 20
+Item =  1, hbm:item.ammo_standard, 44
 canBeIntercepted=true
 canBeIntercepted=true
 canBeIntercepted=true
